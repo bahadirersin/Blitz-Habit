@@ -16,7 +16,6 @@ struct AddHabitUI: View {
     
     var trackTypes = [TrackType.Count, TrackType.Day, TrackType.Minute, TrackType.Hour]
     
-    
     var body: some View {
         NavigationView{
             VStack(alignment:.leading){
@@ -40,7 +39,7 @@ struct AddHabitUI: View {
             .navigationTitle("Track New Habit")
             .toolbar{
                 Button("Add"){
-                    habitList.addHabit(habit: Habit(name: habitName, type: habitType))
+                    habitList.addHabit(habit: Habit(colorCode:Int.random(in: 0...10), name: habitName, type: habitType))
                     dismiss()
                 }.padding(.horizontal)
                     .fontWeight(.bold)

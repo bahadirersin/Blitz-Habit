@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1633FB2995761C00A2DACA /* HabitDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1633FA2995761B00A2DACA /* HabitDetail.swift */; };
 		3BD3B5D229937C7B0078B9BC /* Blitz_HabitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3B5D129937C7B0078B9BC /* Blitz_HabitApp.swift */; };
 		3BD3B5D429937C7B0078B9BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3B5D329937C7B0078B9BC /* ContentView.swift */; };
 		3BD3B5D629937C7E0078B9BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD3B5D529937C7E0078B9BC /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B1633FA2995761B00A2DACA /* HabitDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetail.swift; sourceTree = "<group>"; };
 		3BD3B5CE29937C7B0078B9BC /* Blitz Habit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blitz Habit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD3B5D129937C7B0078B9BC /* Blitz_HabitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blitz_HabitApp.swift; sourceTree = "<group>"; };
 		3BD3B5D329937C7B0078B9BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			children = (
 				3BD3B5D129937C7B0078B9BC /* Blitz_HabitApp.swift */,
 				3BD3B5D329937C7B0078B9BC /* ContentView.swift */,
+				3B1633FA2995761B00A2DACA /* HabitDetail.swift */,
 				3BD3B5E52994295F0078B9BC /* AddHabitUI.swift */,
 				3BD3B5E32993B26A0078B9BC /* HabitGrid.swift */,
 				3BD3B5DF2993A8960078B9BC /* Habit.swift */,
@@ -152,6 +155,7 @@
 				3BD3B5E02993A8960078B9BC /* Habit.swift in Sources */,
 				3BD3B5D429937C7B0078B9BC /* ContentView.swift in Sources */,
 				3BD3B5E22993A9680078B9BC /* HabitList.swift in Sources */,
+				3B1633FB2995761C00A2DACA /* HabitDetail.swift in Sources */,
 				3BD3B5D229937C7B0078B9BC /* Blitz_HabitApp.swift in Sources */,
 				3BD3B5E6299429600078B9BC /* AddHabitUI.swift in Sources */,
 				3BD3B5E42993B26A0078B9BC /* HabitGrid.swift in Sources */,
@@ -211,7 +215,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -265,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

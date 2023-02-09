@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-enum TrackType{
+enum TrackType:Codable{
     case Day
     case Minute
     case Hour
@@ -25,11 +25,13 @@ enum TrackType{
     }
 }
 
-struct Habit:Identifiable, Equatable{
-    let id:UUID = UUID()
+struct Habit:Identifiable, Equatable, Codable{
+    
+    var id:UUID = UUID()
+    var colorCode:Int
+    var counter:Int = 0
     var name:String
     var type:TrackType
-    var counter:Int = 0
     var image:Image{
         if(type == TrackType.Count){
             return Image(systemName: "number.square")
@@ -40,6 +42,8 @@ struct Habit:Identifiable, Equatable{
         }
         return Image(systemName: "h.square")
     }
+    
+
     
     func toString() -> String{
         if(type == TrackType.Count){
@@ -54,4 +58,5 @@ struct Habit:Identifiable, Equatable{
         
         return ""
     }
+    
 }
